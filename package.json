@@ -1,0 +1,23 @@
+{
+  "name": "ovvoc-test-pro-43",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Next.js 14 + React 18 app — upgrade target: Next 15 + React 19",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "node test/config.test.js"
+  },
+  "dependencies": {
+    "next": "14.2.20",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.0",
+    "@types/react": "18.2.48",
+    "@types/react-dom": "18.2.18"
+  }
+}
