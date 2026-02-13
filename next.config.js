@@ -1,15 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
 
   images: {
     domains: ['cdn.example.com', 'api.example.com'],
   },
 
-  experimental: {
-    serverComponentsExternalPackages: ['bcrypt'],
-  },
+  serverExternalPackages: ['bcrypt'],
 
   webpack: (config, { isServer }) => {
     // Custom webpack configuration
